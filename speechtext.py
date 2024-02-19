@@ -3,8 +3,6 @@ sys.dont_write_bytecode = True
 import requests
 from utilities import taskResponse
 from typing import Union
-import time
-
 
 class SpeechText(requests.Session):
     """
